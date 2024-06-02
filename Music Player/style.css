@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    min-height: 65vh;
+    padding: 2rem 3rem 2rem 3rem;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 0.75rem;
+    justify-content: center;
+    background-color: #FFF7DB;
+}
+
+h1 {
+    justify-self: center;
+    margin-bottom: 2rem;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+
+}
+
+.imegsa {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid white;
+    margin-bottom: 2rem;
+
+}
+
+.imk {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid white;
+    margin-bottom: 2rem;
+}
+
+.ima {
+    display: none;
+}
+
+
+.img {
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.imagesa {
+    width: 100%;
+    max-width: 300px;
+
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.hidden-image {
+    display: none;
+}
+
+
+.imagesa:hover {
+    transform: scale(1.05);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+
+.img {
+    display: flex;
+    justify-content: center;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.Song {
+    display: flex;
+    margin-top: 1rem;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+.back {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem;
+    transition: transform 0.2s ease-in-out;
+
+
+}
+
+.plays {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.forward {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.play {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.time input[type="range"] {
+
+
+    width: 100%;
+
+    height: 5px;
+
+    background: #ddd;
+
+    border-radius: 10px;
+
+    outline: none;
+
+}
+
+
+.time input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    appearance: none;
+
+    width: 20px;
+
+    height: 20px;
+
+    background: #333;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+}
+
+.time input[type="range"]::-webkit-slider-thumb:hover {
+    background: #555;
+}
+
+.time input[type="range"]::-webkit-slider-thumb:active {
+    background: #777;
+
+}
